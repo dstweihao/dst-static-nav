@@ -27,5 +27,5 @@
 
 
 
-![](https://gitee.com/dstweihao/dst-static-nav/blob/master/src/assets/images/nav_preview.jpeg)
+![](https://gitee.com/dstweihao/dst-static-nav/raw/master/src/assets/images/nav_preview.jpeg)
 
