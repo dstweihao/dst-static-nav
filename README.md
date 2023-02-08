@@ -27,5 +27,5 @@
 
 
 
-![](/Users/haowei/Documents/Gitee/dst-static-nav/src/assets/images/nav_preview.jpeg)
+![](https://gitee.com/dstweihao/dst-static-nav/blob/master/src/assets/images/nav_preview.jpeg)
 
