@@ -1,16 +1,26 @@
-# Vue 3 + TypeScript + Vite
+# 1. 前言
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+考虑到开源库[static-nav](https://github.com/TopVitamin/static-nav)是使用HTML+CSS+JQ简单实现的，代码里面网址都是直接写死的，这样处理的话，维护时会异常繁琐，而且不利于后期拓展，比如定位某个导航的功能，还有就是通过云端存储网址，前端页面请求动态渲染等等。
 
-## Type Support For `.vue` Imports in TS
+所以就打算使用vue next + vite + element-plus 重构项目，结合部门实际应用场景，考虑到了通用和项目的问题，还有就是快速定位的问题，后期也可以将navList.ts里的数据存储在服务器，通过部门的后台管理系统配置一下，就可以了。不用前端每次更新，都需要打包部署。
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+因为最近百度捣鼓了一个开发者搜索，所以也加了一下。
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+# 2. 功能列表
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+1. 左边菜单栏快速定位，右边静态导航页动态渲染
+2. 通过navList.ts配置，无需改动前端页面
+3. 支持百度开发者搜索
+
+
+
+# 3. 待实现需求
+
+1. 右边静态页面滚动时，和左侧菜单栏联动
+
+2. 搜索引擎加上图标显示
+
+   
+
