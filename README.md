@@ -19,8 +19,13 @@
 # 3. 待实现需求
 
 1. 右边静态页面滚动时，和左侧菜单栏联动
-
 2. 搜索引擎加上图标显示
 
-   
+
+
+# 4. 项目预览
+
+
+
+![](/Users/haowei/Documents/Gitee/dst-static-nav/src/assets/images/nav_preview.jpeg)
 
