@@ -8,7 +8,7 @@
 
 
 
-具体内容可看博文[《静态导航页设计与开发》](https://xie.infoq.cn/article/b74cb93536a024b3c9c295296 )
+具体内容可看博文[《静态导航页设计与开发》](https://dstweihao.cn/?p=185 )
 
 
 
